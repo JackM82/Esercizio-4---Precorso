@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    display:flex;
+    margin: 0px;
+    height: 100vh; /*tutta l'altezza disponibile nell'area visualizzabile*/
+    font-family: 'Roboto', sans-serif;
+}
+
+#main{
+    width: 100%;
+}
+
+#content{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon{
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:pointer;    
+}
+
+.sidebar-icon p{ /*assegno le proprietà CSS solo agli elementi "p" della classe "sidebar-icon"*/
+    margin: 0;
+}
+
+.sidebar-icon ion-icon{ /*assegno le proprietà CSS solo agli elementi "ion-icon" della classe "sidebar-icon"*/
+    font-size: 1.5em;    
+}
+
+#topbar{
+    height: 8vh; /*altezza 8% dell'area visualizzata*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 50%; /*altezza 50% del suo parent (topbar)*/
+}
+
+#search-wrapper{
+    display: flex;
+    height: 50%;    
+}
+
+#topbar-icons{
+    display: flex;
+}
+
+.topbar-icon ion-icon{
+    font-size: 2em;
+    padding: 0 0.3em; /*paddin 0 sopra e sotto, 0.3em sui lati*/
+}
+
+#mic-icon ion-icon{
+    font-size: 1.7em;
+}
+
+#mic-icon {
+    margin: 0 0.5em;
+}
+
+#search-button{
+    padding: 0 0.6em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+#lower-part{
+    display: flex;   
+    margin: 20px 0; 
+}
+#lower-part img{
+    height: 6vh;    
+}
+
+#lower-part p{
+    margin: 0;
+}
+
+#attributes{
+    padding: 0 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#thumbnail img{
+    height: 30vh;
+}
+
+#preview{
+    margin: 1.3em;
+}
+
+#title{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
